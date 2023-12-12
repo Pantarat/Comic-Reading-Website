@@ -32,3 +32,6 @@ npm start
 Likewise, the frontend port by default is set to 5173 which you can edit at ./ commicweb-app 2/.env
 
 7. To fully utilize the website, register a new user then go into MySQL Database and add the user_id from the user table to the admin table to turn any user into an admin. Admins can access a new separated admin page where they can add new books, edit existing books, and delete any books.
+
+
+Additional Information: You can import the file Comic Website API.postman_collection.json into postman to try out just the backend portion alone.
