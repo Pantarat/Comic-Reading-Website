@@ -1,0 +1,113 @@
+/* Picture.css */
+
+/* Style the search box at the top */
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-box button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-box button:hover {
+    background-color: #00409e;
+  }
+  
+  /* Style the main container */
+  .big-box-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  /* Style the left big box */
+  .left-big-box {
+    flex: 3; /* Increase the vertical size further */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    /* Additional styling */
+    min-height: 300px; /* Set a minimum height */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Style the input and select elements */
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  /* Style the buttons for pagination */
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the disabled buttons */
+  button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Style the Page indicator */
+  span {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  
+  .book-item {
+    padding: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height:200px;
+    text-align: center;
+  }
+  
+  .book-cover {
+    aspect-ratio: 1/1.2;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 0;
+    margin-bottom: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  

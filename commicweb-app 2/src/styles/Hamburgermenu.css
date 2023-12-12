@@ -1,0 +1,48 @@
+/* Hamburgermenu.css */
+
+.hamburger-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 30px;
+    left: -200px; /* Set a default position to make the panel disappear */
+    width: 200px;
+    background-color: transparent; /* Make it transparent when closed */
+    transition: left 0.3s, background-color 0.3s; /* Smoothly transition 'left' and 'background-color' properties */
+    overflow-y: auto;
+    color: #fff;
+    z-index: 1;
+    padding: 10px;
+  }
+  
+  .menu.open {
+    left: 0; /* When open, move the menu to the left edge */
+    background-color: #333; /* Set the background color when open */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  

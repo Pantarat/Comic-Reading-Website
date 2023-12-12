@@ -1,0 +1,40 @@
+/* UpdatedComicPage.css */
+
+.updated-comic-content {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+.updated-navigation-container {
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.updated-navigation-dropdown {
+  margin-right: 10px;
+  width: 60%;
+}
+
+.updated-navigation-button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.navigation-buttons {
+  display: inline-block;
+  text-align: center;
+}
+
+.chapter-options {
+  width: 100%;
+}
+
+.page-img {
+  width: 600px;
+}
+

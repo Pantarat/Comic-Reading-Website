@@ -1,0 +1,55 @@
+/* History.css */
+
+/* ... (existing styles) */
+
+.history-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    /* Increase the padding as needed */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.book-display {
+    margin-bottom: 10px;
+    /* Adjust the margin as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-info {
+    margin-left: 10px;
+    /* Adjust the margin as needed */
+    text-align: center;
+    /* Center the text */
+}
+
+.history-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.history-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    /* Increase the margin as needed */
+}
+
+.history-comic-page {
+    font-size: 24px;
+    /* Increase the font size as needed */
+}
+
+.history-image {
+    width: 100px;
+    height: 120px;
+}
+
+/* ... (existing styles) */

@@ -1,0 +1,70 @@
+/* BookmarkPage.css */
+
+.search-box button {
+  padding: 8px 12px;
+  background-color: #2196F3;
+  /* Blue button color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.left-big-box {
+  flex: 3; /* Increase the vertical size further */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  /* Additional styling */
+  min-height: 300px; /* Set a minimum height */
+  display: flex;
+}
+
+.book-item {
+  padding: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 150px;
+  height:200px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  /* Increased padding */
+  margin-right: 5px;
+  background-color: #2196F3;
+  /* Blue button color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.book-cover {
+  aspect-ratio: 1/1.2;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 0;
+  margin-bottom: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.rate-book-slider {
+  width: 60% ;
+}
+
+.rating-div {
+  text-align: center;
+}
+
+.rating-num {
+  border-radius: 100%;
+  background-color: #ccc;
+  padding: 10px;
+}

@@ -1,0 +1,86 @@
+/* Register.css */
+
+/* Center the card vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  /* Style the form and buttons */
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    width: 45%; /* Adjust the button width as needed */
+  }
+  
+  .btn-secondary {
+    width: 45%; /* Adjust the button width as needed */
+  }
+  
+  /* Center the buttons */
+  .text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the card and form */
+  .card {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  /* Style the title */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Add some spacing to the bottom of the "Have an account?" link */
+  .lead {
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the "Have an account?" link */
+  .lead a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Style the registration image */
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  /* Media query to adjust layout on smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .card {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    img {
+      border-radius: 10px;
+    }
+  }
+  
